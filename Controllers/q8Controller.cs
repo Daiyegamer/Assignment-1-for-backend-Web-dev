@@ -15,7 +15,12 @@ namespace Assignment1backendweb.Controllers
         [Produces("application/json")]
 
         public string Squashfellows([FromForm] double Small, [FromForm]  double Large)
-//?
+///defined parameters for small and large
+///small total = (small input) * 25.5
+///large total = (large input) * 40.5
+///small total + large total = Subtotal
+///tax = .13 * subtotal
+///subotal + tax = Total with tax
         {
             
             double SmallTotal = Math.Round(Small * 25.50,2);
