@@ -16,8 +16,8 @@ namespace Assignment1backendweb.Controllers
 
         public string Squashfellows([FromForm] double Small, [FromForm]  double Large)
 ///defined parameters for small and large
-///small total = (small input) * 25.5
-///large total = (large input) * 40.5
+///small total = (small input) * 25.50
+///large total = (large input) * 40.50
 ///small total + large total = Subtotal
 ///tax = .13 * subtotal
 ///subotal + tax = Total with tax
@@ -28,11 +28,11 @@ namespace Assignment1backendweb.Controllers
             double Subtotal = Math.Round(SmallTotal + LargeTotal,2);
             double Tax = Math.Round(Subtotal * .13,2);
             double Total = Math.Round(Subtotal + Tax, 2);
-            string message = $"{Small}  Small @ $25.50 = ${SmallTotal};" 
-                +$" {Large} Large @ $40.5  = ${LargeTotal};"
-                +$" Subtotal = $ {Subtotal};"
-                + $" Tax = ${ Tax} HST;"
-                + $" Total = ${Total};";
+            string message = $"{Small}  Small @ $25.50 = {SmallTotal.ToString("C", CultureInfo.CurrentCulture)};" 
+                +$" {Large} Large @ $40.5  = {LargeTotal.ToString("C", CultureInfo.CurrentCulture)};"
+                +$" Subtotal = {Subtotal.ToString("C", CultureInfo.CurrentCulture)};"
+                + $" Tax = { Tax.ToString("C", CultureInfo.CurrentCulture)} HST;"
+                + $" Total = {Total.ToString("C", CultureInfo.CurrentCulture)};";
 
             return message;
         }

@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fahad\\OneDrive\\Desktop\\Assignment1backendweb\\Assignment1backendweb.csproj",
+      "projectUniqueName": "C:\\Users\\fahad\\OneDrive\\Desktop\\Assignment1backendweb\\Assignment-1-for-backend-Web-dev\\Assignment1backendweb.csproj",
       "projectName": "Assignment1backendweb",
-      "projectPath": "C:\\Users\\fahad\\OneDrive\\Desktop\\Assignment1backendweb\\Assignment1backendweb.csproj",
+      "projectPath": "C:\\Users\\fahad\\OneDrive\\Desktop\\Assignment1backendweb\\Assignment-1-for-backend-Web-dev\\Assignment1backendweb.csproj",
       "packagesPath": "C:\\Users\\fahad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fahad\\OneDrive\\Desktop\\Assignment1backendweb\\obj\\",
+      "outputPath": "C:\\Users\\fahad\\OneDrive\\Desktop\\Assignment1backendweb\\Assignment-1-for-backend-Web-dev\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fahad\\AppData\\Roaming\\NuGet\\NuGet.Config",
