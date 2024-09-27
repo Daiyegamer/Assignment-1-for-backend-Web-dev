@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Assignment1backendweb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c5278ac5ba53b4e9c12b34dfa5295d6fc6d14d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed3e58a311468c9cafb344f4beeaf428557f1863")]
 [assembly: System.Reflection.AssemblyProductAttribute("Assignment1backendweb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Assignment1backendweb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

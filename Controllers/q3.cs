@@ -18,6 +18,8 @@ namespace Assignment1backendweb.Controllers
         //<summary>
         //<returns>a cube of {base}</returns>
         //<summary>
+        ///// <param name="base"></param>
+        /// <returns></returns>
 
 
         public int cube(int Base)

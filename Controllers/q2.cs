@@ -7,11 +7,16 @@ namespace Assignment1backendweb.Controllers
     [ApiController]
     public class q2Controller : ControllerBase
     {
-        //GET : localhost:xx/api/q2/Greeting?name=Gary ->"Hi Gary!"
-        //GET : localhost:xx/api/q2/Greeting?name=Gary ->"Hi Renée!"
+        //example GET : localhost:xx/api/q2/Greeting?name=Gary ->"Hi Gary!"
+        //example GET : localhost:xx/api/q2/Greeting?name=Gary ->"Hi Renée!"
         //<summary>
         //<returns>a greeting to {name}</returns>
         //<summary>
+        /// <summary>
+       
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
 
         [HttpGet(template: "greeting")]
         public string greeting(string name)

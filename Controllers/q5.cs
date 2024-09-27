@@ -19,7 +19,10 @@ namespace Assignment1backendweb.Controllers
         /// Receives an HTTP POST request with a body and provides a response message.
         /// </summary>
         /// <returns>An HTTP response with a body echoing the request body.</returns>
-        ///POST http://localhost:7000/api/q5/secret->"Shh...the secret is 5
-
+        ///example POST curl -H "Content-Type: application/json" -d "5" "Https://localhost:7000/api/Q5/secret"->"Shh...the secret is 5
+        ///example POST curl -H "Content-Type: application/json" -d "10" "Https://localhost:7000/api/Q5/secret"->"Shh...the secret is 10
+        ///example POST curl -H "Content-Type: application/json" -d "{fromBody}" "Https://localhost:7000/api/Q5/secret"->"Shh...the secret is {requestBody}
+        ///input parameter is  {requestBody}
+        /// in this case from body is = request body .
     }
 }
